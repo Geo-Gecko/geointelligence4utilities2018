@@ -11,381 +11,396 @@
       Let's make something beautiful together. Contribute on Github:
       https://github.com/webslides/webslides
 
-      Thanks,
-      @jlantunez.
+      Thanks!
     -->
 
     <!-- SEO -->
-    <title>WebSlides: Making HTML presentations easy</title>
-    <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+    <title>GIS4ENERGY - GeoGecko</title>
+    <meta name="description" content="WebSlides is the easiest way to make HTML presentations. Just essential features, clean code, and lovely CSS.">
 
     <!-- URL CANONICAL -->
-    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 
-    <!-- CSS WebSlides -->
-    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="./static/css/webslides.css">
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
-    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+    <link rel="stylesheet" type="text/css" media="all" href="./static/css/svg-icons.css">
 
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->
 
     <!-- FACEBOOK -->
-    <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
+    <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
-    <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
-    <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
-    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+    <meta property="og:title" content="Make a Keynote presentation using HTML"> <!-- EDIT -->
+    <meta property="og:description" content="WebSlides is the easiest way to make HTML presentations. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:32:14"> <!-- EDIT -->
+    <meta property="og:image" content="./static/images/share-webslides.jpg" > <!-- EDIT -->
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
     <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
-    <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
-    <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
-    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+    <meta name="twitter:title" content="Make a Keynote presentation using HTML"> <!-- EDIT -->
+    <meta name="twitter:description" content="WebSlides is the easiest way to make HTML presentations. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta name="twitter:image" content="./static/images/share-webslides.jpg"> <!-- EDIT -->
 
     <!-- FAVICONS -->
-    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
-    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
-    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
-    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
-    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
-    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
-    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+    <link rel="shortcut icon" sizes="16x16" href="./static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="./static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="./static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="./static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="./static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="./static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="./static/images/favicons/favicon-192.png">
 
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333333">
-
   </head>
   <body>
-    <header role="banner">
-      <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
-          <li class="github">
-            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
-              <svg class="fa-github">
-                <use xlink:href="#fa-github"></use>
-              </svg>
-              <em>WebSlides</em>
-            </a>
-          </li>
-          <li class="twitter">
-            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
-              <svg class="fa-twitter">
-                <use xlink:href="#fa-twitter"></use>
-              </svg>
-              <em>@WebSlides</em>
-            </a>
-          </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
-      </nav>
-    </header>
 
     <main role="main">
-      <article id="webslides" class="vertical">
+      <article id="webslides">
+
         <!-- Quick Guide
           - Each parent <section> in the <article id="webslides"> element is an individual slide.
           - Vertical sliding = <article id="webslides" class="vertical">
           - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
         -->
 
-        <section>
-         <span class="background" style="background-image:url('https://webslides.tv/static/images/nature.jpg')"></span>
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap aligncenter">
-            <h1><strong>Create beautiful stories</strong></h1>
-            <p class="text-intro">WebSlides makes HTML presentations easy.<br>
-              Just the essentials and using lovely CSS.
-            </p>
-            <p>
-              <a href="https://webslides.tv/webslides-latest.zip" class="button zoomIn" title="Download WebSlides for free">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                WebSlides
-              </a>
-            </p>
-          </div>
-          <!-- .end .wrap -->
-        </section>
-        <section>
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap size-50 aligncenter">
-            <h2><strong>Why WebSlides?</strong></h2>
-            <p class="text-intro"><a href="demos/why-webslides.html" title="Why WebSlides?">Presentations</a>, <a href="demos/landings.html" title="Landings">landings</a>, <a href="demos/portfolios.html" title="Portfolios">portfolios</a>, and <a href="demos/longforms.html" title="Longforms">longforms</a>.</p>
-            <div class="bg-white shadow">
-              <ul class="flexblock reasons">
-                <li>
-                  <h2>An opportunity to engage.</h2>
-                  <p>WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way. HTML and CSS as narrative elements.</p>
-                </li>
-                <li>
-                  <h2>Work better, faster.</h2>
-                  <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="demos/index.html" title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
-                </li>
-              </ul>
+
+        <section class="bg-apple slide-bottom">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('./static/images/first.jpg')"></span>
+          <div class="wrap">
+            <div class="content-center">
+              <p>
+			  <img class="logo" src="./static/images/Logo_pin.svg" height="20%" width="20%" alt="The Times">
+			</iframe>
+              </p>
+			  <center>
+			  <h1>Drones for utility mapping</h1>
+              <h4>Kampala, 2018</h4>
+			  <center>
             </div>
-            <!-- .end .bg-white shadow -->
           </div>
           <!-- .end .wrap -->
         </section>
-        <section>
+        <section class="bg-apple aligncenter">
+         <span class="background dark" style="background-image:url('./static/images/DSC00307.JPG')"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h3><strong>WebSlides is really easy</strong></h3>
-                <p class="text-intro">Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual slide. </p>
-                <p>Code is clean and scalable. It uses <strong>intuitive markup</strong> with popular naming conventions. There's no need to overuse classes or nesting. <strong>Making an HTML presentation has never been so fast</strong>.</p>
-              </div>
-              <!-- .end .column -->
-              <div class="column">
-                <pre>&lt;article id="webslides"&gt;
-  <span class="code-comment">&lt;!-- Slide 1 --&gt;</span>
-  &lt;section&gt;
-    &lt;h1&gt;Design for trust&lt;/h1&gt;
-  &lt;/section&gt;
-  <span class="code-comment">&lt;!-- Slide 2 --&gt;</span>
-  &lt;section class="bg-primary"&gt;
-    &lt;div class="wrap"&gt;
-      &lt;h2&gt;.wrap = container (width: 90%)&lt;/h2&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</pre>
-              </div>
-              <!-- .end .column -->
-            </div>
-            <!-- .end .grid -->
+		  <h1 class="text-landing"></h1>
+		  <img class="logo" src="./static/images/Logo_pin.svg" height="10%" width="10%" alt="The Times">
+		  <h1 class="text-landing">Geo Gecko</h1>
+            <p class="text-subtitle">"WE CREATE ARTFUL AND ACTIONABLE GEO-INTELLIGENCE TO DRIVE BETTER DECISION-MAKING"</p>
           </div>
           <!-- .end .wrap -->
         </section>
-        <section>
+<section class="bg-apple aligncenter">
           <div class="wrap">
-            <h2>Features</h2>
-            <ul class="flexblock features">
-              <li>
-                <div>
-                  <h2>
-                    <span>&rarr;</span>
-                    Simple Navigation
-                  </h2>
-                  with arrow keys, presenter...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-link">
-                      <use xlink:href="#fa-link"></use>
-                    </svg>
-                    Permalinks
-                  </h2>
-                  Go to a specific slide.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-clock-o">
-                      <use xlink:href="#fa-clock-o"></use>
-                    </svg>
-                    Slide Counter
-                  </h2>
-                  Current/Total number.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>40<sup>+</sup></span>
-                    Beautiful Components
-                  </h2>
-                  Covers, cards, quotes...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-text-height">
-                      <use xlink:href="#fa-text-height"></use>
-                    </svg>
-                    Vertical Rhythm
-                  </h2>
-                  Use multiples of 8.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>500<sup>+</sup></span>
-                    SVG Icons
-                  </h2>
-                  Font Awesome Kit.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div class="wrap">
-            <h2><strong>WebSlides Demos</strong></h2>
-            <p>Contribute on <a href="https://github.com/webslides/webslides" title="Contribute on Github">Github</a>. <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
+            <h3>How we do it</h3>
+            <p><code>Open Source</code></p>
             <ul class="flexblock gallery">
               <li>
-                <a href="demos/why-webslides.html" title="Why WebSlides?">
+                <a href="#">
                   <figure>
-                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
-                    <figcaption>
-                      <h2>Why WebSlides?</h2>
-                    </figcaption>
+                    <img alt="Thumbnail " src="./static/images/QGIS_logo_2017-01-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The desktop</center></h2>
+					</figcaption>  
                   </figure>
                 </a>
               </li>
               <li>
-                <a href="demos/landings.html" title="Landings">
+                <a href="#">
                   <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
-                    <figcaption>
-                      <h2>Landings</h2>
-                    </figcaption>
+                    <img alt="Thumbnail " src="./static/images/postgres-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The database</center></h2>
+					</figcaption>  
                   </figure>
                 </a>
-              </li>
               <li>
-                <a href="demos/portfolios.html" title="Portfolios">
+                <a href="#">
                   <figure>
-                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
-                    <figcaption>
-                      <h2>Portfolios</h2>
-                    </figcaption>
+                    <img alt="Thumbnail " src="./static/images/GeoServer_1000-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The server</center></h2>
+					</figcaption>  
                   </figure>
                 </a>
               </li>
+			  </ul>
+			  <ul class="flexblock gallery">
               <li>
-                <a href="demos/keynote.html" title="Apple Keynote">
+                <a href="#">
                   <figure>
-                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
-                    <figcaption>
-                      <h2>Apple Keynote</h2>
-                    </figcaption>
+                    <img alt="Thumbnail " src="./static/images/leaflet_logo-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The WebGIS</center></h2>
+					</figcaption>  
                   </figure>
                 </a>
               </li>
+				<li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="./static/images/d3js-card-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The Insight</center></h2>
+					</figcaption>  
+                  </figure>
+                </a>
+              </li>
+				<li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="./static/images/osgeo_logo-01.png" height="70%" width="70%">
+					<figcaption>
+                      <h2><center>The Community</center></h2>
+					</figcaption>  
+                  </figure>
+                </a>
+              </li>		  
             </ul>
           </div>
           <!-- .end .wrap -->
         </section>
-        <section>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h4>
-                  <svg class="fa-life-ring">
-                    <use xlink:href="#fa-life-ring"></use>
-                  </svg>
-                  <strong>Guides</strong>
-                </h4>
-                <p>If you need help, here's just three tutorials. Just a basic knowledge of HTML is required:</p>
-                <ul class="description">
-                  <li><a href="demos/components.html" title="WebSlides Components">WebSlides Components</a>.</li>
-                  <li><a href="demos/classes.html" title="WebSlides Classes">WebSlides Classes</a>.</li>
-                  <li><a href="demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
-                </ul>
-              </div>
-              <div class="column">
-                <figure><img class="aligncenter" src="static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <div class="column">
-                <h4>
-                  <svg class="fa-cubes">
-                    <use xlink:href="#fa-cubes"></use>
-                  </svg>
-                  <strong>Built to expand</strong>
-                </h4>
-                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
-                <ul class="description">
-                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                  <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
-                </ul>
-              </div>
-            </div>
-            <!--end .grid -->
+        <section class="fullscreen">
+          <!-- Fullscreen Video -->
+          <div class="embed">
+            <iframe width="800" height="450" src="http://kampala.geogecko.com/sites/muddy/index.html" allowfullscreen></iframe>
           </div>
+          <!-- .end .embed -->
         </section>
-        <section class="aligncenter">
-          <!-- .wrap = container (width: 90%) -->
-          <div class="wrap">
-            <h2><strong>Ready to Start?</strong> </h2>
-            <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
-            <p>
-              <a href="https://webslides.tv/webslides-latest.zip" class="button" title="Download WebSlides">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                Free Download
-              </a>
-              <span class="try">
-                <a href="https://www.paypal.me/jlantunez/8" title="Thanks :)">
-                  <svg class="fa-paypal">
-                    <use xlink:href="#fa-paypal"></use>
-                  </svg>
-                  Pay what you want.
-                </a>
-              </span>
-            </p>
+        <section class="fullscreen">
+          <!-- Fullscreen Video -->
+          <div class="embed">
+            <iframe width="800" height="450" src="http://kampala.geogecko.com/sites/school_filter/index.html" allowfullscreen></iframe>
           </div>
-          <!-- .end .wrap -->
+          <!-- .end .embed -->
         </section>
-        <section class="slide-bottom">
-          <div class="wrap">
-            <div class="content-right text-serif">
-              <h2>
-                <strong>Thanks.</strong>
-                <a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20&mdash;%20https://webslides.tv">
-                  <svg class="fa-twitter">
-                    <use xlink:href="#fa-twitter"></use>
-                  </svg>
-                </a>
-              </h2>
-              <p>People share content that makes them feel inspired. WebSlides is a very effective way to engage young audiences, customers, and teams.</p> 
-              <p>Best,<br> <a href="https://twitter.com/jlantunez">@jlantunez</a>, <a href="https://twitter.com/belelros">@belelros</a>, and <a href="https://twitter.com/luissacristan">@luissacristan</a>.</p>
-            </div>
-            <!-- .end .content-right -->
+		<section class="fullscreen">
+          <!-- Fullscreen Video -->
+          <div class="embed">
+            <iframe width="800" height="450" src="https://geo-gecko.github.io/waterPointsAruaServiceArea/#10/2.9241/31.1424" allowfullscreen></iframe>
           </div>
-          <!-- .end .wrap -->
+          <!-- .end .embed -->
         </section>
+		<section class="fullscreen">
+          <!-- Fullscreen Video -->
+          <div class="embed">
+            <iframe width="800" height="450" src="https://geo-gecko.github.io/gis4energy/#7/1.145/32.298" allowfullscreen></iframe>
+          </div>
+          <!-- .end .embed -->
+        </section>
+		<section class="fullscreen bg-apple aligncenter">
+         <div class="embed dark">
+          <video autoplay loop muted poster="./static/images/stopped.png">
+            <source src="./static/images/typed.mp4" type="video/mp4">
+          </video>
+          </div>
+          <!-- .end .embed -->
+          <div class="wrap">
+            <h1>So much is going in the Open Source world! <br> Also for utility management <br> (e.g. MapMint! <img alt="Thumbnail " src="./static/images/mapmint.png" height="5%" width="5%">)</h1>
 
+           </div>
+           <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple slide-bottom">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('./static/images/cover-drony-08-pl.jpg')"></span>
+          <div class="wrap">
+            <div class="content-center">
+              <p>
+			</iframe>
+              </p>
+			  <center>
+			  <h1>Lets talk about drones!</h1>
+			  <p><code>The tech and systems are ready. Is Uganda?</code></p>
+
+			  <center>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>	
+<section class="bg-apple aligncenter">
+          <div class="wrap">
+            <h3>Drones comes in many variations</h3>
+			<p><code>And have different purposes</code></p>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="./static/images/DJI.png" height="70%" width="70%"> 
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="./static/images/ebee.png" height="70%" width="70%"> 
+                  </figure>
+                </a>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="./static/images/military.png" height="70%" width="70%">  
+                  </figure>
+                </a>
+              </li>
+			  </ul>
+			  <ul class="flexblock gallery">
+	  
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+<section class="bg-apple">
+          <span class="background dark" style="background-image:url('./static/images/Drone_safety.jpg')"></span>
+          <div class="wrap size-60">
+            <p class="text-context">REGULATIONS AND SECURITY CONSIDERATIONS</p>
+<ul class="flexblock specs">
+                  <li>
+                    <div>
+                      <svg style= "width=64 !important;height=64;"class="fa-wifi">
+                        <use xlink:href="#fa-plane"></use>
+                      </svg>
+                      <h2>Aviation regulations</h2>
+                      You are not the only one in the sky
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg style= "width=64;height=64;" class="fa-battery-full">
+                        <use xlink:href="#fa-eye"></use>
+                      </svg>
+                      <h2>Privacy</h2>
+                      Keep your drone where I can see it
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg style= "width=64;height=64;" class="fa-life-ring">
+                        <use xlink:href="#fa-exclamation-circle"></use>
+                      </svg>
+                      <h2>Safety</h2>
+                      Drones can hurt
+                    </div>
+                  </li>
+                </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple aligncenter">
+         <span class="background dark" style="background-image:url('./static/images/DSC00219.JPG')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+		  <h1 class="text-landing"></h1>
+		  <img class="logo" src="./static/images/law.png" height="10%" width="10%" alt="The Times">
+		  <h1 class="text-landing">What does the Ugandan law say?</h1>
+            <p class="text-subtitle">"Depend on who you ask, but in the end it must be up to Civil Aviation Authority (CAA)"</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>		
+<section class="bg-apple aligncenter">
+          <div class="wrap">
+            <div class="content-left">
+              <h3>The system - SharperShape</h3>
+              <p>Digitalized and Automated Inspection & Asset Management Solutions for Electricity Transmission and Distribution Companies
+</p>
+			<img class="logo" src="./static/images/Logo_pin.svg" height="20%" width="20%" alt="The Times">
+			<img class="logo" src="./static/images/provendia.png" height="60%" width="60%" alt="The Times">
+             </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+              <!-- <div class="embed"> = Responsive -->
+              <div class="embed">
+                <video muted controls poster="./static/images/stopped.png">
+            <source src="./static/images/demo.mp4" type="video/mp4">
+          </video>
+              </div>
+              <!-- end .embed -->
+            </div>
+            <!-- end .content-left -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+		
+<section class="bg-apple">
+          <span class="background dark" style="background-image:url('./static/images/lines.svg')"></span>
+          <div class="wrap size-60">
+            <p class="text-context">HOW TO GET STARTED?</p>
+<ul class="flexblock specs">
+                  <li>
+                    <div>
+                      <img alt="Thumbnail " src="./static/images/helicopter-solid.svg" height="70%" width="70%">  
+                      <h2>Aerial Data Collection</h2>
+                      Consolidated Linear Data Collection by Helicopter Flights 
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img alt="Thumbnail " src="./static/images/cogs-solid.svg" height="70%" width="70%">
+                      <h2>Processing and Visualization</h2>
+                      Setup, upload, 3D models
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img alt="Thumbnail " src="./static/images/paper-plane-regular.svg" height="70%" width="70%">
+                      <h2>Inspection and follow ups with drone</h2>
+                      Management and maintenance planning
+                    </div>
+                  </li>
+                </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple aligncenter">
+         <span class="background" style="background-image:url('./static/images/satellite.png')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+		  <h1 class="text-landing"></h1>
+		  <h1 class="text-landing">When should we use drones?</h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>			
+		<section class="fullscreen bg-apple aligncenter">
+         <div class="embed dark">
+          <video autoplay muted poster="./static/images/stopped.png">
+            <source src="./static/images/lapse.mp4" type="video/mp4">
+          </video>
+          </div>
+          <!-- .end .embed -->
+          <div class="wrap">
+		  <h1 class="text-landing"></h1>
+		  <img class="logo" src="./static/images/Logo_pin.svg" height="10%" width="10%" alt="The Times">
+		  <h1>Questions?</h1>
+            <p class="text-subtitle">Geo Gecko<br>Lars Agerskov Christensen<br>Plot 30, Bukoto Street<br>Kamwokya, Kampala<br>Info@geogecko.com</p>
+
+           </div>
+           <!-- .end .wrap -->
+        </section>
+		
       </article>
-      <!-- end article -->
     </main>
-    <!-- end main -->
-
-   <!-- A global footer
-
-     <footer role="contentinfo">
-      <div class="wrap">
-        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
-      </div>
-    </footer>  -->
+    <!--main-->
 
     <!-- Required -->
-    <script src="static/js/webslides.js"></script>
+    <script src="./static/js/webslides.js"></script>
+
     <script>
       window.ws = new WebSlides();
     </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
-    <script defer src="static/js/svg-icons.js"></script>
+    <script defer src="./static/js/svg-icons.js"></script>
 
   </body>
-</html>
+</html>		
